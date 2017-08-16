@@ -17,7 +17,7 @@ describe('<AddForm />', () => {
         const wrapper = shallow(<AddForm />);
         wrapper.instance().setEditing(true);
         expect(wrapper.hasClass('add-form')).toEqual(true);
-    });
+    }); 
 
     it('Should switch to editing when the add button is clicked', () => {
         const wrapper = shallow(<AddForm />);
